@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    height: 100vh;
+    width: 98.6vw;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(./images/Netflix\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    /* position: fixed; */
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+.logo{
+    width: 130px;
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav button{
+    float: right;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn2{
+    padding: 10px 20px;
+    background-color: #ED2B2A;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.btn2:hover{
+    background-color: #D21312;
+}
+.btn1{
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid rgb(158, 158, 158);
+}
+.image1{
+    width: 10px;
+    height: 7px;
+    margin-left: 10px;
+}
+.content{
+    text-align: center;
+    margin-top: 200px;
+    line-height: 60px;
+}
+.content h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.content h3{
+    font-size: 25px;
+    font-weight: 300;
+}
+.content p{
+    font-size: 20px;
+}
+.input-box{
+    padding: 15px 15px;
+    padding-right: 95px;
+    background: transparent;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.content button{
+    padding: 14px 30px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: #e60000;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.content button:hover{
+    background-color: #c21313;
+}
+.rec, .rec1, .rec2, .rec3{
+    width: 98.6vw;
+    height: 8px;
+    background-color: #2e2e2e;
+}
+.rec1{
+    margin-top: 400px;
+}
+.rec2{
+    margin-top: 520px;
+}
+.rec3{
+    margin-top: 20px;
+}
+.feature{
+    padding: 50px 10%;
+    font-size: 20px;
+}
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+} */
+.text-col{
+    float: left;
+    padding: 90px 30px;
+    /* flex-basis: 50%;
+    margin-bottom: 20px; */
+}
+h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+h6{
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.img-col{
+    position: relative;
+    top: 0;
+    float: right;
+    margin-right: 40px;
+}
+.img-col img{
+    width: 35vw;
+}
+.img-col video{
+    position: absolute;
+    width: 345px;
+    left: 65px;
+    top: 75px;
+}
+/* img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+video{
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    display: inline-block;
+    vertical-align: baseline;
+} */
+.img-col1{
+    float: left;
+    padding: 90px 0px;
+    padding-left: 200px;
+}
+.img-col1 img{
+    height: 350px;
+    width: 450px;
+}
+.text-col1{
+    float: right;
+    padding: 100px 0px;
+    padding-right: 170px;
+}
+.section-two{
+    position: relative;
+}
+.img-col2 img{
+    width: 40vw;
+}
+.text-col-two{
+    float: left;
+    position: absolute;
+    left: 150px;
+    padding-top: 170px;
+}
+.img-col2{
+    float: right;
+    padding: 50px 150px;
+}
+.img-col3 img{
+    float: left;
+    width: 37vw;
+}
+.img-col3{
+    padding: 60px 160px;
+}
+.text-col3{
+    float: right;
+    padding-right: 200px;
+}
+.sec4 h2{
+    padding-top: 60px;
+    padding-left: 350px;
+}
+.box{
+    background-color: rgb(54, 54, 54);
+    height: 80px;
+    width: 76%;
+    margin-left: 160px;
+    margin-top: 8px;
+}
+.box:hover{
+    background-color: rgb(66, 66, 66);
+    cursor: pointer;
+}
+.para{
+    font-size: 26px;
+    padding: 23px 30px ;
+    float: left;
+}
+.plus{
+    float: right;
+    padding: 16px 30px;
+    font-size: 48px;
+    font-weight: 300;
+}
+.foot{
+    padding: 50px 350px;
+}
+.foot p{
+    font-size: 20px;
+}
+.foot button{
+    padding: 14px 30px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: #e60000;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.foot button:hover{
+    background-color: #c21313;
+}
+.foot-text{
+    color: gray;
+    margin-left: 135px;
+    margin-bottom: 20px;
+}
+.footer-col{
+    /* width: 1000px;
+    margin: auto; */
+    margin-left: 50px;
+    display: flex ;
+}
+.foot1{
+    width:  20%;
+    margin: auto;
+}
+.foot2{
+    width:  20%;
+    margin: auto;
+}
+.foot3{
+    width:  20%;
+    margin: auto;
+}
+.under{
+    color: gray;
+    text-decoration: underline;
+    word-spacing: 0.25px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.foot-btn{
+    color: white;
+}
+#foot-btn{
+    color: white;
+    cursor: pointer;
+}
